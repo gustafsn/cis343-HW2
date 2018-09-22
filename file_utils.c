@@ -20,7 +20,7 @@ int read_file( char* filename, char **buffer ){
 	/* the file that will be read */	
 	FILE *data;
 
-       	data = fopen(filename,"r");//opens an existing file with the 'filename' param.
+	data = fopen(filename,"r");//opens an existing file with the 'filename' param.
 
 	//Finding the size of the file. This code is from BlackBoard.
 	struct stat st;		 
